@@ -1,0 +1,6 @@
+version: '2'
+services:
+  httpd:
+    image: httpd
+    ports:
+      - "80:80"
